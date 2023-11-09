@@ -1,0 +1,22 @@
+@use 'variables' as v;
+@use 'initial';
+@use 'inputs';
+@use 'results';
+
+.main-container {
+    background-color: v.$white;
+    width: 400px;
+    margin: 2rem auto;
+    padding: 3rem 0;
+    position: relative;
+    border-radius: 1.5rem;
+    border-bottom-right-radius: 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    @media (min-width: 1024px) {
+        border-bottom-right-radius: 30%;
+        width: 650px;
+        margin: .7rem auto;
+        scale: .9;
+    }
+}

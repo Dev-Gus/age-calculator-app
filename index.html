@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="main-container">
+    <section class="main-container__form-container">
+      <form class="main-container__form">
+        <div class="main-container__form__inputs-container">
+          <div>
+            <label id="day-label" for="day">DAY</label>
+            <input placeholder="DD" type="text" name="day" id="day">
+            <p class="error-text__day"></p>
+          </div>
+          <div>
+            <label id="month-label" for="month">MONTH</label>
+            <input placeholder="MM" type="text" name="month" id="month">
+            <p class="error-text__month"></p>
+          </div>
+          <div>
+            <label id="year-label" for="year">YEAR</label>
+            <input placeholder="YYYY" type="text" name="year" id="year">
+            <p class="error-text__year"></p>
+          </div>
+        </div>
+      </form>
+      <div class="main-container__form__btn--container">
+        <button id="btn" class="main-container__form__btn"><img src="assets/images/icon-arrow.svg" alt="Arrow icon"></button>
+        <div class="main-container__form__horizontal-line"></div>
+      </div>
+    </section>
+
+    <section class="main-container__age-calculated">
+      <p class="main-container__age-calculated__text"><span id="calculated-years">--</span>years</p>
+      <p class="main-container__age-calculated__text"><span id="calculated-months">--</span>months</p>
+      <p class="main-container__age-calculated__text"><span id="calculated-days">--</span>days</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

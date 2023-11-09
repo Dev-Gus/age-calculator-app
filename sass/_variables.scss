@@ -1,0 +1,52 @@
+//COLORS
+$purple: #844efe;
+
+$black: #151515;
+$white: #fff;
+$dark-gray: #727272;
+$light-gray: #898989;
+$extra-light-gray: #dfdfdf;
+$red: #db6b69;
+
+
+//FONTS
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins-ExtraBoldItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+$font: 'Poppins', sans-serif;
