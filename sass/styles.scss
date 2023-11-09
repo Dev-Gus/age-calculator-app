@@ -20,3 +20,15 @@
         scale: .9;
     }
 }
+
+.attribution {
+    color: v.$light-gray;
+    font-size: 1rem;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: v.$purple;
+  }

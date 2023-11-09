@@ -184,4 +184,16 @@ body {
   }
 }
 
+.attribution {
+  color: #898989;
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+}
+
+.attribution a {
+  color: #844efe;
+}
+
 /*# sourceMappingURL=styles.css.map */
