@@ -10,43 +10,6 @@ $red: #db6b69;
 
 
 //FONTS
-@font-face {
-    font-family: 'Poppins';
-    src: url(../assets/fonts/Poppins-Regular.ttf);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url(../assets/fonts/Poppins-Italic.ttf);
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url(../assets/fonts/Poppins-Bold.ttf);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url(../assets/fonts/Poppins-BoldItalic.ttf);
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url(../assets/fonts/Poppins-ExtraBold.ttf);
-    font-weight: 900;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url(../assets/fonts/Poppins-ExtraBoldItalic.ttf);
-    font-weight: 900;
-    font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 $font: 'Poppins', sans-serif;
