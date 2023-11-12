@@ -19,7 +19,10 @@ body {
 }
 @media (min-width: 1024px) {
   .main-container__form__inputs-container {
-    gap: 2rem;
+    gap: 1.8rem;
+    transform: scale(1.1);
+    margin-left: 3rem;
+    margin-top: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
@@ -53,7 +56,7 @@ body {
 }
 @media (min-width: 1024px) {
   .main-container__form input {
-    width: 8.5rem;
+    width: 8rem;
     font-size: 145%;
   }
 }
@@ -94,8 +97,8 @@ body {
 }
 @media (min-width: 1024px) {
   .main-container__form__btn--container {
-    margin-right: 2.75rem;
-    margin-bottom: 0;
+    margin: 1rem auto;
+    margin-right: 3rem;
     justify-content: flex-end;
   }
 }
@@ -109,7 +112,7 @@ body {
 }
 @media (min-width: 1024px) {
   .main-container__form__horizontal-line {
-    width: 87%;
+    width: 85%;
   }
 }
 .main-container__form__btn {
@@ -124,7 +127,13 @@ body {
 }
 .main-container__form__btn img {
   padding: 0.7rem;
-  scale: 0.6;
+  scale: 0.7;
+}
+@media (min-width: 1024px) {
+  .main-container__form__btn {
+    transform: scale(1.4);
+    margin-right: 2%;
+  }
 }
 
 .main-container__age-calculated {
@@ -133,6 +142,12 @@ body {
   align-items: center;
   width: 100%;
   margin-bottom: 3rem;
+}
+@media (min-width: 1024px) {
+  .main-container__age-calculated {
+    transform: scale(1.2);
+    margin-left: 13%;
+  }
 }
 .main-container__age-calculated__text {
   font-weight: 900;
@@ -178,9 +193,9 @@ body {
 @media (min-width: 1024px) {
   .main-container {
     border-bottom-right-radius: 30%;
-    width: 60%;
-    height: 100%;
-    margin: 10% auto;
+    width: 55vw;
+    margin: 1% auto;
+    transform: scale(0.93);
   }
 }
 

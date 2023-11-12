@@ -9,7 +9,10 @@
         gap: 1.2rem;
 
         @media (min-width: 1024px) {
-            gap: 2rem;
+            gap: 1.8rem;
+            transform: scale(1.1);
+            margin-left: 3rem;
+            margin-top: 1.5rem;
         }
     }
 
@@ -44,7 +47,7 @@
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.31);
 
         @media (min-width: 1024px) {
-            width: 8.5rem;
+            width: 8rem;
             font-size: 145%;
         }
     }
@@ -94,8 +97,8 @@
         margin: 2rem auto;
 
         @media (min-width: 1024px) {
-            margin-right: 2.75rem;
-            margin-bottom: 0;
+            margin: 1rem auto;
+            margin-right: 3rem;
             justify-content: flex-end;
         }
     }
@@ -109,7 +112,7 @@
         z-index: 0;
 
         @media (min-width: 1024px) {
-            width: 87%;
+            width: 85%;
         }
     }
 
@@ -126,7 +129,12 @@
 
         & img {
             padding: .7rem;
-            scale: .6;
+            scale: .7;
+        }
+
+        @media (min-width: 1024px){
+            transform: scale(1.4);
+            margin-right: 2%;
         }
     }
 }
