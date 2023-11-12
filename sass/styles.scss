@@ -4,31 +4,31 @@
 @use 'results';
 
 .main-container {
-    background-color: v.$white;
-    width: 400px;
-    margin: 2rem auto;
-    padding: 3rem 0;
-    position: relative;
-    border-radius: 1.5rem;
-    border-bottom-right-radius: 5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: v.$white;
+  width: 400px;
+  margin: 2rem auto;
+  padding: 3rem 0;
+  position: relative;
+  border-radius: 1.5rem;
+  border-bottom-right-radius: 5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
-    @media (min-width: 1024px) {
-        border-bottom-right-radius: 30%;
-        width: 650px;
-        margin: .7rem auto;
-        scale: .9;
-    }
+  @media (min-width: 1024px) {
+    border-bottom-right-radius: 30%;
+    width: 60%;
+    height: 100%;
+    margin: 10% auto;
+  }
 }
 
 .attribution {
-    color: v.$light-gray;
-    font-size: 1rem;
-    font-weight: 900;
-    font-style: italic;
-    text-align: center;
-  }
+  color: v.$light-gray;
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+}
 
-  .attribution a {
-    color: v.$purple;
-  }
+.attribution a {
+  color: v.$purple;
+}

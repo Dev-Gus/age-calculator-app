@@ -178,9 +178,9 @@ body {
 @media (min-width: 1024px) {
   .main-container {
     border-bottom-right-radius: 30%;
-    width: 650px;
-    margin: 0.7rem auto;
-    scale: 0.9;
+    width: 60%;
+    height: 100%;
+    margin: 10% auto;
   }
 }
 

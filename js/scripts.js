@@ -160,7 +160,6 @@ function calculateAge() {
             alertError("Must be a valid date", "day");
             isError = true;
         } else if (yearInput.value > currentYear) {
-            alertError("Must be a valid date", "day");
             isError = true;
         } else if (isError === false) {
             calculatedYears.classList.add('age-field');
